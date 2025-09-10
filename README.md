@@ -22,3 +22,14 @@ Pros of the script instead of manual Excel reports:
 1. Install dependencies:
    ```bash
    pip install pandas yfinance
+
+## 📊 Example Output
+
+'''
+Total Portfolio Value: $135,721.75
+Cash: $5,000.00
+NAV: $140,721.75
+NAV per Share: $140.72
+'''
+![Portfolio Value](assets/img/NAV_Plot.png)
+*Visual representation of asset distribution in the fund.*
