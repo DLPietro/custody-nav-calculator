@@ -33,4 +33,5 @@ Pros of the script instead of manual Excel reports:
 | NAV per Share | $140.72 |
 
 ![Portfolio Value](assets/img/NAV_Plot.png)
+
 *Visual representation of asset distribution in the fund.*
