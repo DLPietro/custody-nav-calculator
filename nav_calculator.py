@@ -17,9 +17,9 @@ portfolio_client['value'] = portfolio['shares'] * portfolio['price']            
 # Step 4: Calculating NAV merging more assets, such as cash or licenses
 total_value = portfolio_client['value'].sum()
 cash = 5000  # Cash in the fund
-total_nav = total_value + cash
-shares_outstanding = 1000
-nav_per_share = total_nav / shares_outstanding
+total_nav = total_value + cash                                                                                # Total NAV
+shares_outstanding = 1000                                                                                     # Number of shares
+nav_per_share = total_nav / shares_outstanding                                                                # NAV per unit of share
 
 # Step 5: Printing Output
 print(f"Total Portfolio Value: ${total_value:,.2f}")
