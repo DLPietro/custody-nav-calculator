@@ -8,15 +8,24 @@ Pros of the script instead of manual Excel reports:
 - Adds cash position
 - Outputs NAV per share
 
-### Once you update live data, liquidity, or the number of shares, it will be updated automatically!!
+> This is a **real tool** that solves a real problem in Custody operations.
 
 ---
 
-## 🚀 Purpose of the tool:
-- ✅ Reduces manual errors
-- ✅ Automates daily reporting / makes it faster
-- ✅ Scales to multiple funds
-- ✅ Built with tools used in modern finance (Python, pandas, yfinance)
+## 🚀 Why this matters? And to whom?
+
+Today, many custody teams calculate NAV manually, a process that is:
+
+- ❌ Time-consuming
+- ❌ Subject to errors, especially when you're in a rush for deadlines
+- ❌ Not Scalable
+
+## The purpose of the calculator is to:
+
+- ✅ Reduce manual errors
+- ✅ Automate daily reporting, making it faster
+- ✅ Scale to multiple funds and clients
+- ✅ Get an instrument with the resources used in modern finance (Python, pandas, yfinance)
 
 ## 🛠 How to Run using Google Colab / IDLE
 1. Install dependencies:
