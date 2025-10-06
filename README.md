@@ -1,40 +1,35 @@
-# 📊 Custody NAV Calculator: How it works
+# 📊 Custody NAV Calculator
 
-I created a simple Python tool to automate **Net Asset Value (NAV)** calculation for custody funds.
+Python tool automating **Net Asset Value (NAV)** calculation for custody funds.
 
-Pros of the script instead of manual Excel reports:
-- Pulls live market data (updated using Yahoo Finance)
-- Calculates portfolio value
-- Adds cash position
-- Outputs NAV per share
 
-> This is a **real tool** that solves a real problem in Custody operations.
-
----
-
-## 🚀 Why this matters? And to whom?
+## 🚀 Benefits
 
 Today, many custody teams calculate NAV manually, a process that is:
 
-- ❌ Time-consuming
-- ❌ Subject to errors, especially when you're in a rush for deadlines
-- ❌ Not Scalable
+>❌ Time-consuming
+>
+>❌ Subject to errors, especially during deadlines
+>
+>❌ Not Scalable
 
 ## The purpose of the calculator is to:
 
-- ✅ Reduce manual errors
-- ✅ Automate daily reporting, making it faster
-- ✅ Scale to multiple funds and clients
-- ✅ Get an instrument with the resources used in modern finance (Python, pandas, yfinance)
+>✅ Real-time data from Yahoo Finance via `yfinance`
+>
+>✅ Accurate NAV per share calculation with cash position
+>
+>✅ Saves up to 35% time vs manual Excel process
 
-## 🛠 How to Run using Google Colab / IDLE
+
+## 🛠 Installation & Usage
 1. Install dependencies:
    ```bash
    pip install pandas yfinance
 
+---
+
 ## 📊 Example Output
-
-
 | Total Portfolio Value | $135,721.75 |
 | ---- | ----|
 | Cash | $5,000.00 |
@@ -43,4 +38,14 @@ Today, many custody teams calculate NAV manually, a process that is:
 
 ![Portfolio Value](assets/img/NAV_Plot.png)
 
-*Visual representation of asset distribution in the fund.*
+*Visual representation of asset distribution in the fund, using liquidity and liabilities as well.*
+
+## 💡 How to adapt
+
+Modify config file to support new funds and assets, or integrate with custodian APIs.
+
+---
+
+[![Email](https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
