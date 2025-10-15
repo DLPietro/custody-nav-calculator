@@ -46,6 +46,34 @@ Modify config file to support new funds and assets, or integrate with custodian 
 
 ---
 
+## 🏡 Project Structure
+
+```text
+custody-nav-calculator/
+├── src/                 # Source code of the project
+│   ├── main.py          # Main calculator logic
+│   ├── utils.py         # Helper functions
+│   └── ...
+├── tests/               # Unit tests
+│   ├── test_calculator.py
+│   └── ...
+├── README.md            # Project documentation
+├── requirements.txt     # Python dependencies
+└── LICENSE              # Project license
+
+```
+
+---
+
+## 🔗 Related Work
+
+- [📊 My Data Journey Blog](https://dlpietro.github.io) — Weekly updates on my upskilling  
+- [🧠 My Learning Roadmap](https://github.com/DLPietro/learning-roadmap) — Publicly tracked progress  
+- [📈 Empirical Analysis: S&P 500 vs IVV vs Fidelity](https://github.com/DLPietro/thesis-backtesting-etf-spx) — Using R, GARCH, backtesting
+- [🎲 iGaming Analytics Dashboard](https://github.com/DLPietro/igaming-analytics-case-study) — KPI and players Retention (_Cohort, Church..._)
+
+---
+
 # ⚡ Credits
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-DLPietro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
