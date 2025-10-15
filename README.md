@@ -1,6 +1,6 @@
 # 📊 Custody NAV Calculator
 
-Python tool automating **Net Asset Value (NAV)** calculation for custody funds.
+**Custody NAV Calculator** is a tool designed to calculate the net asset value (NAV) of custody accounts based on customizable input parameters. This project can be used to calculate the NAV for different periods, asset values, and management fees.
 
 
 ## 🚀 Benefits
@@ -15,7 +15,7 @@ Today, many custody teams calculate NAV manually, a process that is:
 
 ## The purpose of the calculator is to:
 
->✅ Real-time data from Yahoo Finance via `yfinance`
+>✅ Real-time data from Yahoo Finance via _`yfinance`_
 >
 >✅ Accurate NAV per share calculation with cash position
 >
@@ -60,9 +60,7 @@ custody-nav-calculator/
 ├── README.md            # Project documentation
 ├── requirements.txt     # Python dependencies
 └── LICENSE              # Project license
-
 ```
-
 ---
 
 ## 🔗 Related Work
